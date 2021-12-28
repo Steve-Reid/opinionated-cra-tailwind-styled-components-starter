@@ -41,14 +41,11 @@ yarn dev
 npm run dev
 ```
 
-Entry point `pages/index.tsx`.
+Entry point `src/index.tsx`.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
-
-The `pages/api` directory mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 ## Eslint configurations
 
-Lint set according to Airbnb and NextJS style guides.
+Lint set according to Airbnb's style guides.
 ## Format configurations
 
 [Prettier](https://prettier.io/) is set using my opinionated [rules](https://prettier.io/docs/en/configuration.html) inside config file `.prettierrc`
