@@ -56,6 +56,15 @@ module.exports = {
         ignoreRestArgs: true,
       },
     ],
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    'jsx-a11y/label-has-associated-control': [
+      2,
+      {
+        assert: 'either',
+        depth: 3,
+      },
+    ],
     'max-len': [
       'warn',
       {
@@ -71,7 +80,6 @@ module.exports = {
         allowForLoopAfterthoughts: true,
       },
     ],
-    'react/jsx-key': 'error',
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -86,9 +94,13 @@ module.exports = {
         ],
       },
     ],
+    'react/jsx-key': 'error',
     'react/react-in-jsx-scope': 'off',
+    'react/jsx-no-useless-fragment': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react/require-default-props': 'off',
     'import/prefer-default-export': 'off',
+    'no-restricted-exports': 'off',
     'react/jsx-boolean-value': 'off',
     'react/prop-types': 'off',
     'react/no-unescaped-entities': 'off',
