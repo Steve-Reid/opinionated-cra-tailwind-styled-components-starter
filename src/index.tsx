@@ -5,10 +5,12 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import GlobalStyles from './styles/GlobalStyles';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
+      <GlobalStyles />
       <App />
     </Router>
   </React.StrictMode>,
