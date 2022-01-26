@@ -9,7 +9,10 @@ An opinionated React starter project
 - React & React DOM v17
 - Type Checker - TypeScript v4.5.2
 - Page Routing - React Router v6
-- Storybook v6.4.7
+- CSS Framework - TailwindCSS v3
+- Component level Styling - Styled Components
+- Component Level CSS Integration - [Twin.Macro](https://github.com/ben-rogerson/twin.examples/tree/master/next-styled-components)
+- Component UI Development - Storybook v6.4.7
 - Lint - ESlint v8, AirBnB & Eslint-config-next
 - Format - Prettier
 - Unit Testing - Jest + react-testing-library
@@ -36,13 +39,18 @@ Inside the project directory run using `npm` or `yarn`:
 ### Run
 
 ```bash
-yarn dev
+yarn start
 # or
-npm run dev
+npm run start
 ```
 
 Entry point `src/index.tsx`.
 
+## Styling configurations
+
+This starter has been configure to accommodate both Tailwind and Styled Components styles syntax, or even Styled Components containing Tailwind classes syntax.
+
+You can refer to the [docs](https://github.com/ben-rogerson/twin.macro/tree/master/docs) in the twin.macro  repository for guidance.
 ## Eslint configurations
 
 Lint set according to Airbnb's style guides.
